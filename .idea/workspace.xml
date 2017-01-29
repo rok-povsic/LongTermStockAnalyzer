@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a4196ef-e503-4202-8cae-273bd67abc47" name="Default" comment="" />
+    <list default="true" id="2a4196ef-e503-4202-8cae-273bd67abc47" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/finance_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LongTermStockAnalyzer.iml" afterPath="$PROJECT_DIR$/.idea/LongTermStockAnalyzer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/finance.py" afterPath="$PROJECT_DIR$/src/finance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/djia.csv" afterPath="$PROJECT_DIR$/data/djia.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gold.csv" afterPath="$PROJECT_DIR$/data/gold.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sp500-old.csv" afterPath="$PROJECT_DIR$/data/sp500-old.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sp500.csv" afterPath="$PROJECT_DIR$/data/sp500.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sp500_dividend_yield.csv" afterPath="$PROJECT_DIR$/data/sp500_dividend_yield.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/us_cpi.csv" afterPath="$PROJECT_DIR$/data/us_cpi.csv" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +36,28 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finance_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/finance_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/plot.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -32,15 +66,15 @@
       <file leaf-file-name="finance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/finance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="294">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="sp500_dividend_yield.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp500_dividend_yield.csv">
+        <entry file="file://$PROJECT_DIR$/data/sp500_dividend_yield.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3003">
               <caret line="143" column="16" lean-forward="false" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
@@ -50,7 +84,7 @@
         </entry>
       </file>
       <file leaf-file-name="sp500.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp500.csv">
+        <entry file="file://$PROJECT_DIR$/data/sp500.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2982">
               <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
@@ -60,7 +94,7 @@
         </entry>
       </file>
       <file leaf-file-name="us_cpi.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/us_cpi.csv">
+        <entry file="file://$PROJECT_DIR$/data/us_cpi.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -70,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="djia.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djia.csv">
+        <entry file="file://$PROJECT_DIR$/data/djia.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -80,7 +114,7 @@
         </entry>
       </file>
       <file leaf-file-name="gold.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gold.csv">
+        <entry file="file://$PROJECT_DIR$/data/gold.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -98,6 +132,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,8 +145,14 @@
         <option value="$PROJECT_DIR$/finance.py" />
         <option value="$PROJECT_DIR$/src/asd.py" />
         <option value="$PROJECT_DIR$/tests/finance_tests.py" />
-        <option value="$PROJECT_DIR$/src/finance.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/LICENCE.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/data.py" />
+        <option value="$PROJECT_DIR$/src/finance_data.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/src/plot.py" />
+        <option value="$PROJECT_DIR$/src/finance.py" />
       </list>
     </option>
   </component>
@@ -120,9 +163,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -189,11 +235,13 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../earner" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\LongTermStockAnalyzer\data" />
       <recent name="D:\dev\LongTermStockAnalyzer\src" />
     </key>
   </component>
@@ -482,16 +530,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17248061" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18619247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -518,47 +566,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp500_dividend_yield.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3066">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp500.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3087">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/us_cpi.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gold.csv">
+    <entry file="file://$PROJECT_DIR$/data/gold.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -574,7 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp500_dividend_yield.csv">
+    <entry file="file://$PROJECT_DIR$/data/sp500_dividend_yield.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3066">
           <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
@@ -582,7 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp500.csv">
+    <entry file="file://$PROJECT_DIR$/data/sp500.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3087">
           <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
@@ -590,7 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us_cpi.csv">
+    <entry file="file://$PROJECT_DIR$/data/us_cpi.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -598,7 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
+    <entry file="file://$PROJECT_DIR$/data/djia.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -606,7 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gold.csv">
+    <entry file="file://$PROJECT_DIR$/data/gold.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -622,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
+    <entry file="file://$PROJECT_DIR$/data/djia.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -630,7 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gold.csv">
+    <entry file="file://$PROJECT_DIR$/data/gold.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -646,7 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
+    <entry file="file://$PROJECT_DIR$/data/djia.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -654,7 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gold.csv">
+    <entry file="file://$PROJECT_DIR$/data/gold.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -774,7 +782,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
+    <entry file="file://$PROJECT_DIR$/data/djia.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -789,7 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
+    <entry file="file://$PROJECT_DIR$/data/djia.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -834,7 +842,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gold.csv">
+    <entry file="file://$PROJECT_DIR$/data/gold.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -842,14 +850,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp500-old.csv">
+    <entry file="file://$PROJECT_DIR$/data/sp500-old.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/us_cpi.csv">
+    <entry file="file://$PROJECT_DIR$/data/us_cpi.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -858,7 +866,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/asd.py" />
-    <entry file="file://$PROJECT_DIR$/sp500_dividend_yield.csv">
+    <entry file="file://$PROJECT_DIR$/data/sp500_dividend_yield.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3003">
           <caret line="143" column="16" lean-forward="false" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
@@ -866,14 +874,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/finance_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sp500.csv">
+    <entry file="file://$PROJECT_DIR$/data/sp500.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2982">
           <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
@@ -881,7 +882,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djia.csv">
+    <entry file="file://$PROJECT_DIR$/data/djia.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -889,18 +890,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENCE.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/finance_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="60" lean-forward="false" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/finance_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/finance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="294">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="357">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
         </state>
       </provider>
