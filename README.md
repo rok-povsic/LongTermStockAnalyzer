@@ -8,4 +8,6 @@ Current features:
 with included reinvested dividends,
 - able to discount inflation.
 
-
+I wrote 
+[a blog post](https://rokpovsic.com/what-is-the-chance-of-losing-money-in-the-stock-market.html)
+using the results of this project.
